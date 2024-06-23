@@ -1,0 +1,34 @@
+
+### Instructions to Start the Project
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-username/worko-backend.git
+    cd worko-backend
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
+
+3. **Create a `.env` file** in the root directory and add your MongoDB URI and other environment variables:
+    ```sh
+    DB_URI=mongodb://localhost:27017/worko
+    PORT=3000
+    ```
+
+4. **Start the server**:
+    ```sh
+    npm start
+    ```
+   or with `nodemon` for development:
+    ```sh
+    nodemon src/app.js
+    ```
+
+### API Testing
+
+Use an API client like Postman to test the endpoints. For example, to list users, send a GET request to `http://localhost:3000/worko/user`.
+
+By following these instructions, you should be able to set up and run your Node.js backend project successfully.
